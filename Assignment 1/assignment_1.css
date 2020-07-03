@@ -1,0 +1,128 @@
+h1{
+    text-align: center;
+}
+#p1{
+    clear: right;
+    padding: 10px;
+}
+#p2{
+    clear: right;
+    padding: 10px;
+}
+#p3{
+    clear: right;
+    padding: 10px;
+}
+div.container{
+    position: relative;
+}
+#title-1{
+    background-color: pink;
+    border-left: 3px solid black;
+    border-bottom: 3px solid black;
+    float: right;
+    clear: right;
+    width:50px;
+    height:10px;
+    padding: 10px;
+}
+#para_1{
+    background-color:darkgray;
+    border: 3px solid black;
+    float: left;
+    overflow: auto;
+    margin-top: 40px;
+}
+#title-2{
+    background-color: pink;
+    border-left: 3px solid black;
+    border-bottom: 3px solid black;
+    float: right;
+    clear: right;
+    width:50px;
+    height:10px;
+    padding: 10px;
+
+}
+#para_2{
+    background-color:darkgray;
+    border: 3px solid black;
+    float: left;
+    overflow: auto;
+    margin-top: 40px;
+}
+#title-3{
+    background-color: pink;
+    border-left: 3px solid black;
+    border-bottom: 3px solid black;
+    float: right;
+    clear: right;
+    width:50px;
+    height:10px;
+    padding: 10px;
+}
+#para_3{
+    background-color:darkgray;
+    border: 3px solid black;
+    float: left;
+    overflow: auto;
+    margin-top: 40px;
+}
+@media only screen and (min-width: 992px) {
+    #para_1{
+        margin-left: 1%;
+        width:31.5%;
+        height: 200px;
+    }
+    #para_2{
+        margin-left: 1%;
+        width:31.5%;
+        height: 200px;
+    }
+    #para_3{
+        margin-left: 1%;
+        width:31.5%;
+        height: 200px;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    #para_1{
+        margin-left: 3%;
+        width:45%;
+        height: 200px;
+    }
+    #para_2{
+        margin-left: 2%;
+        margin-right: 3%;
+        width:45%;
+        height: 200px;
+    }
+    #para_3{
+        margin-left: 3%;
+        margin-right: 3%;
+        width:92.5%;
+        height: 200px;
+    }
+}
+@media only screen and (max-width: 767px) {
+    #para_1{
+        margin-left: 40px;
+        margin-right: 40px;
+        width:85%;
+        height: 200px;
+    }
+    #para_2{
+        margin-left: 40px;
+        margin-right: 40px;
+        width:85%;
+        height: 200px;
+    }
+    #para_3{
+        margin-left: 40px;
+        margin-right: 40px;
+        width:85%;
+        height: 200px;
+    }
+}
+
+
