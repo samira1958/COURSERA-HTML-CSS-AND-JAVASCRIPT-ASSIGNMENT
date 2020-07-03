@@ -1,0 +1,50 @@
+body{
+    background-color: bisque;
+}
+.navbar{
+    background-color: midnightblue;
+}
+.navbar-brand {
+    padding-bottom: 0px;
+    color: bisque;
+    font-weight: bold;
+    font-size: 40px;
+
+}
+.navbar-toggler{
+    background-color: bisque;
+}
+.navbar-collapse{
+    margin: -7.5px -10px;
+}
+#nav-list{
+
+    padding: 10px;
+    font-size: medium;
+    text-align: center;
+    background-color: darkred;
+}
+li a{
+    background-color: darkred;
+    padding: 10px;
+    color: white;
+    font-size: medium;
+}
+.row{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+#chicken,#beef,#sushi{
+    position: static;
+    border: 1px solid black;
+    margin-bottom: 10px;
+}
+#chicken{
+    background-color: pink;
+}
+#beef{
+    background-color: cornflowerblue;
+}
+#sushi{
+    background-color: darkseagreen;
+}
